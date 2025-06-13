@@ -1,0 +1,19 @@
+sudo apt update -y // for updating
+
+Installing and Starting Nginx
+sudo apt install nginx
+sudo apt enable nginx
+sudo apt start nginx
+
+Installing docker tools:
+
+sudo apt install docker.io docker-compose -y
+
+docker-compose --version --> verify
+
+buliding load balancer
+
+docker-compose up --build
+
+to down
+docker-compose down
